@@ -1,0 +1,4 @@
+SpecRunQueue.configure do |c|
+  c.rspec_bin = "{{rspec_bin}}"
+  c.add_notifier :growl
+end
